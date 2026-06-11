@@ -6,7 +6,19 @@ class Student:
         self.age = age
         self.course = course
         self.marks = marks
+    
+    @classmethod
+    def add_students(cls):
+        stid = input("Enter your student id :")
+        name = input("Enter your name :")
+        age = int(input("Enter your age :"))
+        course = input("Enter your course:")
+        marks = int(input("Enter your marks: "))
+        student = cls(stid, name, age, course, marks)
+        cls.all_students.append(student)
+        print(f"Student {name} added succesfully!\n")
 
+        
 def menu():
     while True:
         print("<<<<<<< STUDENTS MANAGEMENT SYSTEM >>>>>>>")
