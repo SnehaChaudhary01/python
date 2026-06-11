@@ -27,6 +27,39 @@ class Student:
         for student in cls.all_students:
             student.show_details()
 
+    @classmethod
+    def delete_students(cls):
+        stid = input("Enter Student ID to delete: ")
+        student = cls.find_student_by_stid(stid)
+        if student:
+            cls.all_students.remove(student)
+            print("Student deleted successfully!")
+        else:
+            print("Student not found!")
+
+    @classmethod
+    def update_students(cls):
+        stid = input("Enter Student ID: ")
+        student = cls.find_student_by_stid(stid)
+        if student:
+            print("\nLeave blank if you don't want to change a field.")
+            new_name = input("New Name: ")
+            new_age = input("New Age: ")
+            new_course = input("New Course: ")
+            new_marks = input("New Marks: ")
+            if new_name:
+                student.name = new_name
+            if new_age:
+                student.age = int(new_age)
+            if new_course:
+                student.course = new_course
+            if new_marks:
+                student.marks = int(new_marks)
+            print("Student updated successfully!")
+        else:
+            print("Student not found!")
+
+
 def menu():
     while True:
         print("<<<<<<< STUDENTS MANAGEMENT SYSTEM >>>>>>>")
