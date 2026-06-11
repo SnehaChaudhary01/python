@@ -6,7 +6,15 @@ class Student:
         self.age = age
         self.course = course
         self.marks = marks
-    
+
+    def show_details(self):
+        print(f"\n Student Details:")
+        print(f"Student Id : {self.student_id}")
+        print(f"Name : {self.name}")
+        print(f"Age : {self.age}")
+        print(f"Course : {self.course}")
+        print(f"Marks : {self.marks}")
+        
     @classmethod
     def add_students(cls):
         stid = input("Enter your student id :")
