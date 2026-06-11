@@ -59,6 +59,14 @@ class Student:
         else:
             print("Student not found!")
 
+    @classmethod
+    def find_student_by_stid(cls, stid):
+        for student in cls.all_students:
+            if student.student_id == stid:
+                return student
+        return None
+    
+
 
 def menu():
     while True:
