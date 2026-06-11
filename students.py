@@ -18,7 +18,15 @@ class Student:
         cls.all_students.append(student)
         print(f"Student {name} added succesfully!\n")
 
-        
+     @classmethod
+    def view_students(cls):
+        if len(cls.all_students) == 0:
+            print("No Students Found!")
+            return
+        print("\n==== STUDENT LIST ====")
+        for student in cls.all_students:
+            student.show_details()
+
 def menu():
     while True:
         print("<<<<<<< STUDENTS MANAGEMENT SYSTEM >>>>>>>")
