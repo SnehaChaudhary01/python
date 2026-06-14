@@ -1,27 +1,48 @@
-# Python Projects (OOP Based)
-A collection of Python projects built using Object-Oriented Programming (OOP) concepts.
----
-## 📌 Project: Student Management System
-This project is a console-based Student Management System built using Python OOP.  
-It allows users to manage student records easily.
-### 🚀 Features
-- Add new student records
-- View all students
-- Update student details
-- Delete student records
-- Search student by ID
----
-## 🛠️ Technologies Used
+# Python OOP Projects
+A collection of Python projects built using Object-Oriented Programming (OOP) principles. This repository showcases practical applications of classes, objects, inheritance, encapsulation, and other core Python concepts through real-world projects.
+## Technologies Used
 - Python 3
 - Object-Oriented Programming (OOP)
 - Git & GitHub
----
-## 🎯 Learning Purpose
-This project helps to understand:
-- Classes and Objects
-- Class Methods
-- Data management in Python
-- Basic CRUD operations
----
-## 👨‍💻 Author
-- Built by: Sneha Chaudhary
+## Projects
+### 1. Student Management System
+**Features:**
+- Add students
+- View student details
+- Update student information
+- Delete students
+- Search students by ID
+### 2. Library Management System
+**Features:**
+- Add books
+- View available books
+- Borrow books
+- Return books
+- Track issued books
+### 3. Bank Management System
+**Features:**
+- Create accounts
+- Deposit money
+- Withdraw money
+- Check balance
+- View account details
+### 4. Expense Tracker
+**Features:**
+- Add expenses
+- Categorize spending
+- View expense history
+- Track total expenses
+## Learning Objectives
+Through these projects, I am practicing:
+- Object-Oriented Programming (OOP)
+- Class and Object Design
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Data Structures (Lists, Dictionaries)
+- File Handling
+- Problem Solving
+- Git & GitHub Workflow
+## Author
+Built and maintained by Sneha Chaudhary 
+
