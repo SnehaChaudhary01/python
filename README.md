@@ -18,7 +18,6 @@ A collection of Python projects built using Object-Oriented Programming (OOP) pr
 - View available books
 - Borrow books
 - Return books
-- Track issued books
 ### 3. Bank Management System
 **Features:**
 - Create accounts
